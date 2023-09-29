@@ -1,0 +1,39 @@
+body {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.spotify-logo img {
+    width: 100px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #1DB954;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #169944;
+}
